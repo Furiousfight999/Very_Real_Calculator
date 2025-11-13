@@ -1,10 +1,10 @@
-#
+#Asks the user to type in a number
 Read-Host "what is your first number "
 
-#
+#Read line 1
 Read-Host "what is your second number "
 
-#
+#Gives 5 very consequential options
 $option = Read-Host "would you like to:
 1. add
 2. subtract
@@ -14,6 +14,7 @@ $option = Read-Host "would you like to:
 "
 Write-Host "$option"
 
+#"This is the part where you die"
 if (5 -eq $option) {
     write-host "SACRIFICE"
     Start-Process -FilePath "C:\Program Files\Cisco Packet Tracer 8.2.2\bin\PacketTracer.exe"
