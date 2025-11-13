@@ -12,9 +12,10 @@ $option = Read-Host "would you like to:
 4. divide
 5. sacifice to the mesh network
 "
+
 Write-Host "$option"
 
-#"This is the part where you die"
+#"This is the part where he kills you"
 if (5 -eq $option) {
     write-host "SACRIFICE"
     Start-Process -FilePath "C:\Program Files\Cisco Packet Tracer 8.2.2\bin\PacketTracer.exe"
