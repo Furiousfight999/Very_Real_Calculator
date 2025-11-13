@@ -18,7 +18,7 @@ if (5 -eq $option) {
     write-host "SACRIFICE"
     Start-Process -FilePath "C:\Program Files\Cisco Packet Tracer 8.2.2\bin\PacketTracer.exe"
 }elseif (1,2,3,4 -eq $option) {
-    write-host "Then Do it yourself, "
+    write-host "Then Do it yourself, IDIOT"
     calc.exe
     calc.exe
     calc.exe
@@ -33,6 +33,6 @@ if (5 -eq $option) {
     calc.exe
 }
 else {
-    
+    .\TotallyRealCalculator.ps1
 }
 
