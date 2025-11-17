@@ -1,5 +1,7 @@
 #This time in Python
 
+import subprocess
+
 q1 = input("What is your first number?")
 print(q1)
 
@@ -17,10 +19,10 @@ if q3 == 1 or 2 or 3 or 4:
     x = 0
     print("Do it yourself, Idiot")
     while(x < 10):
-        exec("C:\Windows\System32\calc.exe", "r")
+        subprocess.run("C:\windows\system32\calc.exe")
         x += 1
 elif q3 == 5:
     print("SACRIFICE! SACRIFICE! SACRIFICE! SACRIFICE! SACRIFICE! SACRIFICE!")
-    exec(".\Mesh_network.pkt")
+    subprocess.run(".\Mesh_network.pkt")
 else:
-    exec(".\TotallyRealCalculator")
+    subprocess.run(".\TotallyRealCalculator")

@@ -1,12 +1,8 @@
 # IDK
 11/13/25
-Changed the file path for packet tracer to the executable to a prebuilt .pkt file.
-
-Created a packet tracer file that is a (non-functional) mesh network. (lazy)
-
-Updated README.md to reflect the changes made to the packet tracer feature.
-
-Changed wording at the end of the README.md from :
-    LoyaltoParkway & Furiousfight999
-    to
-    made by LoyaltoParkway & Furiousfight999
+I made the python file mostly work (the mesh network still doesn't work)
+why was it failing before? simple. I AM DUMB. I used exec() when i was supposed to used:
+import subprocess
+then:
+subprocess.run(filepath)
+i spent like 2 hours not understanding why exec didn't work
