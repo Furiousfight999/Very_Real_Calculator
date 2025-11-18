@@ -1,8 +1,3 @@
 # IDK
 11/13/25
-I made the python file mostly work (the mesh network still doesn't work)
-why was it failing before? simple. I AM DUMB. I used exec() when i was supposed to used:
-import subprocess
-then:
-subprocess.run(filepath)
-i spent like 2 hours not understanding why exec didn't work
+way to much to put. i cant get it to run the packet tracer file. it says unexpected error: [WinError 193] %1 is not a valid win32 application

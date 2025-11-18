@@ -5,7 +5,7 @@ This program requires Cisco Packet tracer in order to be fully functional. I rec
 
 Just so you know, when asking for an operation (add, subtract, multiply, divide, or sacrifice to the mesh network. if you type anything other than the numbers listed the script will start from the beggining)
 
-I was bored so I made this in powershell, and then I got bored and remade it in python as well
+I was bored so I made this in powershell, and then I got bored and remade it in python as well (still not going well)
 
 
 if you have a different version of cisco packet tracer downloaded, try and run it. It may or may not work.
