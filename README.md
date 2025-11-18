@@ -7,6 +7,7 @@ Just so you know, when asking for an operation (add, subtract, multiply, divide,
 
 I was bored so I made this in powershell, and then I got bored and remade it in python as well (still not going well)
 
+I made a real calculator. it was easier than the fake one.
 
 if you have a different version of cisco packet tracer downloaded, try and run it. It may or may not work.
 
